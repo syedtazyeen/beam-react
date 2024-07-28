@@ -1,8 +1,9 @@
 interface User {
     id: number;
-    name: string;
+    username: string;
     email: string;
     accessToken: string;
+    streamKey?: string
 }
 
 export default User

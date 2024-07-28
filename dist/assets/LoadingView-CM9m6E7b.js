@@ -1,0 +1,1 @@
+import{j as r}from"./index-BO0DeBpE.js";import{C as e}from"./CircularLoading-2PuJ8enf.js";const i=()=>r.jsx("div",{className:"w-full h-full flex justify-center items-center",children:r.jsx(e,{})});export{i as L};

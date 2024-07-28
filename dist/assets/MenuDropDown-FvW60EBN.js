@@ -1,0 +1,1 @@
+import{j as e}from"./index-BO0DeBpE.js";const s=({children:r,open:o})=>{if(o)return e.jsx("div",{className:"z-[999] bg-[var(--paperColor)] border border-[#8b8b8b20] w-[16rem] py-4 px-2 rounded-md shadow-lg absolute top-[calc(100%+.5rem)] right-[calc(100%-2rem)]",children:r})};export{s as M};

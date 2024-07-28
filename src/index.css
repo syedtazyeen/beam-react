@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,16 +14,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --primaryMainColor: #5648ed;
-  --primaryLightColor: #007bff;
-  --primaryDarkColor: #3f32cf;
-  --primaryAccentColor: #007bff20;
+  /* --primaryMainColor: #5648ed;
+  --primaryLightColor: #6355ff;
+  --primaryDarkColor: #3f32cf; */
+  --primaryMainColor: #2fbe16;
+  --primaryLightColor: #4ceb25;
+  --primaryDarkColor: #2cb514;
+  --primaryAccentColor: #8b8b8b10;
+
+  --errorColor : #b51919;
 
 
+  --borderRadiusPrimary: 5px;
 }
 
 :root {
-  --bgColor: black;
+  --bgColor: #101010;
   --textColor: white;
   --paperColor: #141414;
 
@@ -29,13 +37,13 @@
 }
 
 
-/* :root {
-  --bgColor: #f3f3f3;
+:root {
+  --bgColor: #fafafa;
   --textColor: black;
   --paperColor: white;
 
   --invertValue: 0;
-} */
+}
 
 body {
   background-color: var(--bgColor);
@@ -46,4 +54,8 @@ body {
 .text-security-disc {
   -webkit-text-security: disc;
   text-security: disc;
+}
+
+.font-family-style1 {
+  font-family: "Lato", sans-serif;
 }

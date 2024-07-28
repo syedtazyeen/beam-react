@@ -1,0 +1,1 @@
+import{j as t,r as o,O as r}from"./index-BO0DeBpE.js";import{L as s}from"./LoadingView-CM9m6E7b.js";import"./ToggleButton-BojE4Rkp.js";import"./Textarea-BY6rh0iC.js";import"./CircularLoading-2PuJ8enf.js";import"./styled-components.browser.esm-C1LfnyJe.js";const n=()=>t.jsx(o.Suspense,{fallback:t.jsx(s,{}),children:t.jsx(r,{})});export{n as default};

@@ -1,4 +1,4 @@
-import { SidebarButton } from '@/components/common/button'
+import { SidebarButton } from '@/components/common/buttons'
 import studioLinks from '@/router/links/studio.links'
 import React from 'react'
 

@@ -1,0 +1,1 @@
+import{x as e,r as t}from"./index-BO0DeBpE.js";function d(){const r=e();return t.useMemo(()=>({back:()=>r(-1),forward:()=>r(1),reload:()=>window.location.reload(),push:o=>r(o),replace:o=>r(o,{replace:!0})}),[r])}export{d as u};
